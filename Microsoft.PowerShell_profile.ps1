@@ -1,1 +1,1 @@
-. "C:\Users\Thomas\Documents\WindowsPowerShell\fuz.ps1"  # Replace with your desired path
+. "C:\Users\User\Documents\WindowsPowerShell\fuz.ps1"  # Replace with your desired path
