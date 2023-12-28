@@ -1,0 +1,1 @@
+. "C:\Users\Thomas\Documents\WindowsPowerShell\fcd.ps1"  # Replace with your desired path
