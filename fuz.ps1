@@ -11,6 +11,7 @@ function fuz {
         Write-Host "I found a more than one directory!"
         $matchingDirs | ForEach-Object { Write-Host $_.FullName }
     } else {
-        Write-Host "No directories found :("
+        Write-Host "
+~I could not find any directories!"
     }
 }
