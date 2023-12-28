@@ -10,7 +10,7 @@ Simple function for doing a fuzzy search in PowerShell!
 
 "fuz.ps1" contains the function for performing the fuzzy cd command. You need to have a PowerShell profile and your execution policy set to allow the execution of locally created scripts.
 
-Beware that this can be **dangerous** when running third party scripts.
+Beware that changing the execution policy can be **dangerous** when running third party scripts.
 
 - Include the fuz.ps1 file in your PowerShell profile. More about [profiles](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.4).
 
