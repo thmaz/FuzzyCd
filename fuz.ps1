@@ -1,4 +1,4 @@
-function fcd {
+function fuz {
 	param (
 		[string]$searchTerm
 	)
@@ -8,9 +8,9 @@ function fcd {
     if ($matchingDirs.Count -eq 1) {
         cd $matchingDirs.FullName
     } elseif ($matchingDirs.Count -gt 1) {
-        Write-Host "Multiple matching directories found:"
+        Write-Host "I found a more than one directory!"
         $matchingDirs | ForEach-Object { Write-Host $_.FullName }
     } else {
-        Write-Host "No matching directory found."
+        Write-Host "No directories found :("
     }
 }
